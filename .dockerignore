@@ -1,0 +1,6 @@
+# Ignore the Dockerfile and docker-compose.yml to avoid copying them into the image
+Dockerfile
+docker-compose.yml
+
+# Ignore the build output
+/go/bin/app
